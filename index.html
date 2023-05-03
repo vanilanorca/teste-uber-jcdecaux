@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .card{
+            padding: 10px;
+            border: 1px solid black;
+        }
+        .card p{
+            padding: 0;
+            margin: 10px;
+        }
+        span{
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+    <p>As verificações do tempo da rota acontecem de 2 em 2 minutos na API</p>
+
+    <div class="container">
+        <div class="card">
+            <p>Rota: <span id="nomeVolta"><!-- --></span></p>
+            <p>Partindo de: <span id="voltaPartida"><!-- --></span></p>
+            <p>Chegando a: <span id="voltaChegada"><!-- --></span></p>
+            <p>Tempo de viagem: <span id="voltaTempo"><!-- --></span></p>
+            <p>Distância: <span id="voltaDistancia"><!-- --></span></p>
+        </div>
+    
+        <div class="card">
+            <p>Rota: <span id="nomeIda"><!-- --></span></p>
+            <p>Partindo de: <span id="idaPartida"><!-- --></span></p>
+            <p>Chegando a: <span id="idaChegada"><!-- --></span></p>
+            <p>Tempo de viagem: <span id="idaTempo"><!-- --></span></p>
+            <p>Distância: <span id="idaDistancia"><!-- --></span></p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
