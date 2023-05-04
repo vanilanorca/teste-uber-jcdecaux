@@ -22,6 +22,15 @@
             color: green;
             font-weight: bold;
         }
+        .transito{
+            display: flex;
+            align-items: center;
+        }
+        .colorbox{
+            width: 40px;
+            height: 20px;
+            background: red;
+        }
     </style>
 
 </head>
@@ -35,6 +44,11 @@
             <p>Chegando a: <span id="voltaChegada"><!-- --></span></p>
             <p>Tempo de viagem: <span id="voltaTempo"><!-- --></span></p>
             <p>Distância: <span id="voltaDistancia"><!-- --></span></p>
+
+            <div class="transito">
+                <p>Trânsito: <span id="transitoVoltaTexto"></span></p>               
+                <div class="colorbox" id="transitoVoltaCor"></div>
+            </div>
         </div>
     
         <div class="card">
@@ -43,6 +57,11 @@
             <p>Chegando a: <span id="idaChegada"><!-- --></span></p>
             <p>Tempo de viagem: <span id="idaTempo"><!-- --></span></p>
             <p>Distância: <span id="idaDistancia"><!-- --></span></p>
+
+            <div class="transito">
+                <p>Trânsito: <span id="transitoIdaTexto"></span></p>
+                <div class="colorbox" id="transitoIdaCor"></div>
+            </div>
         </div>
     </div>
 
